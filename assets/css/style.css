@@ -73,7 +73,6 @@ h6 {
     transition: all 0.5s;
     padding: 0 15px;
     background: #859398;
-    /* fallback for old browsers */
     overflow-y: auto;
 }
 
@@ -256,7 +255,7 @@ h6 {
 
 #hero .hero-container {
     position: relative;
-    z-index: 2;
+    z-index: 1;
     min-width: 300px;
 }
 
@@ -270,7 +269,7 @@ h6 {
 }
 
 #hero p {
-    margin-left: -20px;
+    
     color: #fff;
     margin-bottom: 50px;
     font-size: 26px;
@@ -365,7 +364,7 @@ section {
 
 .about .content a {
     margin-top: 40px;
-    width: 200px;
+    width: 50%;
     align-self: center;
     background-color: #b33939;
     border: 2px solid #272829;
