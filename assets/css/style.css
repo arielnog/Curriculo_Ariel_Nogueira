@@ -531,9 +531,13 @@ section {
  #portfolio .portfolio-item h2 {
   color: #ffffff;
   font-size: 25px;
-  margin: 0;
-  font-weight: 700;
+  font-weight: 600;
 }
+
+#portfolio .portfolio-item h3 {
+    color: #ffffff;
+    font-size: 20px;;
+  }
 
 #portfolio .portfolio-item:hover h2 {
     color: #ffffff00;
