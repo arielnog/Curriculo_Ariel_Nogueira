@@ -113,7 +113,7 @@
 
   // Porfolio isotope and filter
   $(window).on('load', function() {
-    var portfolioIsotope = $('.container-fluid').isotope({
+    var portfolioIsotope = $('.portfolio-container').isotope({
       itemSelector: '.portfolio-cont',
       layoutMode: 'fitRows'
     });

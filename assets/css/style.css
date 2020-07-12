@@ -302,7 +302,7 @@ h6 {
 --------------------------------------------------------------*/
 
 section {
-    padding: 60px 20px;
+    padding: 60px 10px;
     overflow: hidden;
 }
 
@@ -364,23 +364,12 @@ section {
 }
 
 .about .content a {
-    margin: 40px 400px;
+    margin-top: 40px;
     width: 200px;
+    align-self: center;
     background-color: #b33939;
     border: 2px solid #272829;
     ;
-}
-
-@media (max-width: 1024px) {
-    .about .content a {
-        margin: 50px 200px;
-    }
-}
-
-@media (max-width: 400px) {
-    .about .content a {
-        margin: 50px 60PX
-    }
 }
 
 
@@ -438,7 +427,7 @@ section {
 
 .resume .resume-item {
     padding: 0 0 40px 20px;
-    margin-left: 50px;
+    margin-left: 10px;
     border-left: 2px solid #b33939;
     position: relative;
 }
@@ -479,7 +468,7 @@ section {
     height: 16px;
     border-radius: 50px;
     left: -9px;
-    top: 0;
+    top: 0px;
     background: #b33939;
     border: 2px solid #272829;
 }
