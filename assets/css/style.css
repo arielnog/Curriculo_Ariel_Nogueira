@@ -364,7 +364,11 @@ section {
 
 .about .content a {
     margin-top: 40px;
+<<<<<<< HEAD
     width: 50%;
+=======
+    width: 200px;
+>>>>>>> master
     align-self: center;
     background-color: #b33939;
     border: 2px solid #272829;
