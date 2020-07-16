@@ -208,7 +208,6 @@ h6 {
     background: none;
     font-size: 24px;
     transition: all 0.4s;
-
     line-height: 1;
     cursor: pointer;
     text-align: right;
@@ -216,6 +215,7 @@ h6 {
 
 .mobile-nav-toggle i {
     color: #b33939;
+    z-index: 10;
 }
 
 .mobile-nav-active {
@@ -226,9 +226,7 @@ h6 {
     left: 0;
 }
 
-.mobile-nav-active .mobile-nav-toggle i {
-    color: #fff;
-}
+
 
 
 /*--------------------------------------------------------------
