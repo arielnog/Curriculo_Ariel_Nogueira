@@ -171,7 +171,7 @@ h6 {
 .nav-menu a {
     display: flex;
     align-items: center;
-    color: #ffff;
+    color: #212431;
     padding: 12px 15px;
     margin-bottom: 8px;
     transition: 0.3s;
@@ -181,14 +181,14 @@ h6 {
 .nav-menu a i {
     font-size: 24px;
     padding-right: 8px;
-    color: #2c2f3f;
+    color: #212431;
 }
 
 .nav-menu a:hover,
 .nav-menu .active>a,
 .nav-menu li:hover>a {
     text-decoration: none;
-    color: #040b14;
+    color: #ffff
 }
 
 .nav-menu a:hover i,
@@ -250,12 +250,12 @@ h6 {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 2;
 }
 
 #hero .hero-container {
     position: relative;
-    z-index: 1;
+    z-index: 2;
     min-width: 300px;
 }
 
@@ -269,7 +269,6 @@ h6 {
 }
 
 #hero p {
-    
     color: #fff;
     margin-bottom: 50px;
     font-size: 26px;
@@ -364,12 +363,8 @@ section {
 
 .about .content a {
     margin-top: 40px;
-<<<<<<< HEAD
-    width: 50%;
-=======
-    width: 200px;
->>>>>>> master
-    align-self: center;
+    width: 10em ;
+    color: #fff;
     background-color: #b33939;
     border: 2px solid #272829;
     ;
@@ -404,16 +399,35 @@ section {
     background: #dce8f8;
 }
 
-.skills .progress-bar {
+.skills .progress-dev {
     width: 1px;
     height: 10px;
     transition: .9s;
-    background-color: #149ddd;
-}
-
-.skills .progress-bar .dev {
     background-color: #dc3545;
 }
+
+.skills .progress-bd {
+    width: 1px;
+    height: 10px;
+    transition: .9s;
+    background-color: #45a4e4;
+}
+
+.skills .progress-ps {
+    width: 1px;
+    height: 10px;
+    transition: .9s;
+    background-color: #28a745;
+}
+
+.skills .progress-sys {
+    width: 1px;
+    height: 10px;
+    transition: .9s;
+    background-color: #ffc107;
+}
+
+
 
 
 /*--------------------------------------------------------------
@@ -594,10 +608,9 @@ section {
     justify-content: center;
     width: 54px;
     height: 54px;
-    background: #149ddd;
+    background: #b33939;
     border-radius: 50%;
     transition: 0.5s;
-    border: 1px solid #149ddd;
 }
 
 .services .icon i {
@@ -605,34 +618,14 @@ section {
     font-size: 24px;
 }
 
-.services .icon-box:hover .icon {
-    background: #fff;
-}
-
-.services .icon-box:hover .icon i {
-    color: #149ddd;
-}
 
 .services .title {
+    margin-top: 13px;
     margin-left: 80px;
     font-weight: 700;
-    margin-bottom: 15px;
     font-size: 18px;
 }
 
-.services .title a {
-    color: #343a40;
-}
-
-.services .title a:hover {
-    color: #149ddd;
-}
-
-.services .description {
-    margin-left: 80px;
-    line-height: 24px;
-    font-size: 14px;
-}
 
 
 /*--------------------------------------------------------------
