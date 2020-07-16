@@ -32,9 +32,10 @@
 
     <!-- ======= Header ======= -->
     <header id="header">
+
         <div class="d-flex flex-column">
 
-            <button type="button" class="mobile-nav-toggle d-xl-inline-flex"><i class="icofont-navigation-menu"></i></button>
+
             <div class="profile">
                 <img src="assets/img/profile-bg.jpg" alt="" class="img-fluid">
                 <h1 class="text-light"><a href="index.html">Ariel Rocha Nogueira</a></h1>
@@ -51,6 +52,8 @@
             <nav class="nav-menu">
 
                 <ul>
+                    <button type="button" class="mobile-nav-toggle d-xl-none"><i
+                            class="icofont-navigation-menu"></i></button>
                     <li><a href="#sobre"><i class="bx bx-user"></i> Quem sou Eu?</a></li>
                     <li><a href="#resume"><i class="bx bx-file-blank"></i> Formação e Experiências</a></li>
                     <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
@@ -409,13 +412,16 @@
 
                 <div class="modal fade col-sm" id="modal-card" tabindex="-1" role="document"
                     aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
-                            
                             <div class="modal-body">
                                 <iframe width="100%" height="600px"
                                     src="https://www.yumpu.com/pt/embed/view/eaFc0UoryWIgLd4f" frameborder="0"
                                     allowfullscreen="true" allowtransparency="true"></iframe>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
                             </div>
                         </div>
                     </div>
