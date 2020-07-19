@@ -1,9 +1,7 @@
 !(function($) {
   "use strict";
 
-
-  // Smooth scroll for the navigation menu and links with .scrollto classes
-  $(document).on('click', '.nav-menu a, .scrollto', function(e) {
+ $(document).on('click', '.nav-menu a, .scrollto', function(e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       e.preventDefault();
       var target = $(this.hash);
@@ -29,7 +27,6 @@
     }
   });
 
-  // Activate smooth scroll on page load with hash links in the url
   $(document).ready(function() {
     if (window.location.hash) {
       var initial_nav = window.location.hash;
@@ -57,7 +54,6 @@
     }
   });
 
-  // Navigation active state on scroll
   var nav_sections = $('section');
   var main_nav = $('.nav-menu, .mobile-nav');
 
@@ -80,7 +76,6 @@
     });
   });
 
-  // Skills section
   $('.skills-content').waypoint(function() {
     $('.progress .progress-dev, .progress-bd, .progress-ps, .progress-sys ').each(function() {
       $(this).css("width", $(this).attr("aria-valuenow") + '%');
@@ -89,7 +84,7 @@
     offset: '80%'
   });
 
-  // Porfolio isotope and filter
+
   $(window).on('load', function() {
     var portfolioIsotope = $('.portfolio-container').isotope({
       itemSelector: '.portfolio-cont',
@@ -106,14 +101,12 @@
       aos_init();
     });
 
-    // Initiate venobox (lightbox feature used in portofilo)
     $(document).ready(function() {
       $('.venobox').venobox();
     });
   });
 
 
-  // Init AOS
   function aos_init() {
     AOS.init({
       duration: 1000,
